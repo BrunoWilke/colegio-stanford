@@ -1,15 +1,13 @@
-html, body{
-    /* display: flex; */
+/* html, body{
     height: 100%;
     position: relative;
-    width: 100%;
-    /* flex-direction: column; */
+    width: 100%;    
 }
 main{
     padding: 10px 80px;
     height: 100%;
     width: 100%;
-}
+} */
 .my-button{
     background-color: #284B63;
     color: #fff;
