@@ -1,0 +1,16 @@
+html, body{
+    /* display: flex; */
+    height: 100%;
+    position: relative;
+    width: 100%;
+    /* flex-direction: column; */
+}
+main{
+    padding: 10px 80px;
+    height: 100%;
+    width: 100%;
+}
+.my-button{
+    background-color: #284B63;
+    color: #fff;
+}
