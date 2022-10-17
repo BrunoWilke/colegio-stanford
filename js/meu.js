@@ -27,3 +27,8 @@ function criarOptions(idSelect, dados){
     } 
     idSelect.innerHTML = options;
 }
+  
+function matriculaEnviada(){
+    swal("Parabéns", "Matrícula Enviada com Sucesso!", "success");
+    
+};
