@@ -10,15 +10,15 @@
 </head>
 <body>
   <main>
-    <div class="pgColegioTxt">
-      <div class="pgColegioCabH3">
+    <div>
+      <div>
         <h3 class="pgColegioH3">Matrícula</h3>
       </div>
       <p>O Colégio Stanford está com as portas abertas para receber sua família.<br>
         Agende uma visita para conhecer nossa proposta pedagógica, infraestrutura e todas as vantagens que só o Colégio Stanford pode oferecer para o seu/sua filho(a).<br>
         Esperamos a sua família!</p>
     </div>
-      <form class="row g-3" onsubmit="matriculaEnviada()">
+      <form class="row g-3" onsubmit="alert('Matricula Enviada com Sucesso')">
         <div class="col-md-9">
           <label for="nomeResp" class="form-label" required>Nome do Responsável*</label>
           <input type="text" class="form-control" id="nomeResp">
@@ -92,7 +92,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.mask.js"></script>
   <script src="js/meu.js"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script>
     $(document).ready(function(){
 
